@@ -24,3 +24,11 @@
     - *TODO... plz add*
 
 You are encouraged to improve on the source code because that is where your creativity shines and the possibilities are endless!
+
+Idea
+- Tshirt claim website
+    - Hacktoberfest image not showing
+    - Login page not found
+    - Claim button not working
+    - CSS Style missing
+    - Dark mode not working
