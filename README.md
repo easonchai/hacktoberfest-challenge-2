@@ -13,7 +13,7 @@
 - [x] Example fix, copy this as a template!
 
 ## Getting Started 🗺️
-- There are 5 bugs 🕷️ found in the source code of the Python project. Find it, solve it, and open a PR!
+- There are 5 bugs 🕷️ found in the source code of the HTML/CSS project. Find it, solve it, and open a PR!
 - There are **additional freebie pull requests** you can claim by modifying this README file and:
     - Add instructions
     - Fix typos
@@ -24,11 +24,3 @@
     - *TODO... plz add*
 
 You are encouraged to improve on the source code because that is where your creativity shines and the possibilities are endless!
-
-Idea
-- Tshirt claim website
-    - Hacktoberfest image not showing
-    - Login page not found
-    - Claim button not working
-    - CSS Style missing
-    - Dark mode not working
