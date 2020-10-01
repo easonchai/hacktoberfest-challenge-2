@@ -1,0 +1,114 @@
+* {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background: #183D5D;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    margin: 20px; 
+    width: 100%;
+}
+
+#login-button {
+    display: flex;
+    margin-left: auto;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-button:hover {
+    color: #AAA;
+}
+
+#home-button {
+    margin-right: auto;
+}
+
+#logo {
+    width: 8rem;
+}
+
+#hacktoberfest-banner {
+    display: flex;
+    width: 45%;
+    min-height: 20%;
+    justify-content: center;
+    margin: auto;
+}
+
+#claim-link {
+    background: #0069FF;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#claim-link:hover{
+    opacity: 0.6;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FF73FA;
+}
+
+button:disabled{
+    opacity: 0.3;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    min-height: 40rem;
+    width: 30%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#card h3 {
+    color: #333;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#card label {
+    color: #333;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#card form {
+    color: #333;
+    font-size: 3rem;
+    text-align: center;
+}
