@@ -90,6 +90,7 @@ button:disabled{
     flex-direction: column;
     background: white;
     min-height: 40rem;
+    padding: 25px;
     width: 30%;
     border-radius: 10px;
     margin: auto;
@@ -107,8 +108,14 @@ button:disabled{
     text-align: center;
 }
 
-#card form {
+#card input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
     color: #333;
-    font-size: 3rem;
-    text-align: center;
 }

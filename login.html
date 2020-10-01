@@ -17,11 +17,12 @@
     </nav>
     <section id="card">
         <h3>Login</h3>
-        <form>
+        <form onsubmit="alert('Stole your password! Nah, you found the bug :b')">
             <label for="username">Username: </label>
-            <input id="username" type="text"><br />
+            <input id="username" type="text" name="username" placeholder="e.g. 1337pro"><br />
             <label for="password">Password: </label>
             <input id="password" type="password">
+            <input type="submit" value="Submit">
         </form>
     </section>
 </body>
