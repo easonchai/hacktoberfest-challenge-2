@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <!-- Bug 4: Changed Document to Login -->
+    <title>Login</title>
 </head>
 
 <body>
@@ -17,7 +18,8 @@
     </nav>
     <section id="card">
         <h3>Login</h3>
-        <form onsummit="alert('Stole your password! Nah, you found the bug :b')">
+        <!-- Bug 3: Changed onsummit to onsubmit -->
+        <form onsubmit="alert('Stole your password! Nah, you found the bug :b')">
             <label for="username">Username: </label>
             <input id="username" type="text" name="username" placeholder="e.g. 1337pro"><br />
             <label for="password">Password: </label>
