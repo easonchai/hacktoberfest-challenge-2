@@ -11,7 +11,7 @@
 
 ## Fixed ✅
 - [x] Example fix, copy this as a template!
-- Hello! There itzza me
+- Hello World!!!!!!
 
 ## Getting Started 🗺️
 - There are 5 bugs 🕷️ found in the source code of the HTML/CSS project. Find it, solve it, and open a PR!
