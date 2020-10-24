@@ -2,12 +2,17 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
+    font-empahsis: none;
+    width: 0;
+ 
+   
 }
 
 body {
     background: #183D5D;
     width: 90%;
     margin: auto;
+    
 }
 
 nav {
@@ -28,7 +33,14 @@ nav {
 }
 
 #login-button:hover {
-    color: #AAA;
+  color: #AAA;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: none;
 }
 
 #home-button {
@@ -50,7 +62,7 @@ nav {
 #claim-link {
     background: #0069FF;
     padding: 10px 20px;
-    font-size: 2rem;
+    font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
     justify-content: center;
@@ -63,13 +75,29 @@ nav {
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin: 20px;
 }
 
 h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px;
+}
+h3{
+    font-size: 3rem;
+    text-align: left;
+    margin: 15px;
+}
+h4{
     font-size: 2rem;
+    text-align: right;
+    margin: 20px;
+}
+
+h5{
+    font-size: 1rem;
     text-align: center;
     margin: 20px;
 }
@@ -90,8 +118,11 @@ button:disabled{
     flex-direction: column;
     background: white;
     min-height: 40rem;
-    padding: 25px;
-    width: 30%;
+    padding-top: 75px;
+    padding-buttom: 20px;
+    padding-left: 25px;
+    padding-right: 45px;
+    width: 45%;
     border-radius: 10px;
     margin: auto;
 }
@@ -111,11 +142,11 @@ button:disabled{
 #card input {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 8px 3px 3px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
-    font-size: 1.4rem;
+    font-size: 12px;
     color: #333;
 }
