@@ -10,7 +10,10 @@
 - Have fun and support other open source projects!
 
 ## Fixed ✅
-- [x] Example fix, copy this as a template!
+- removed "disable" setting for button onclick in claim.html line 21
+- fixed typo "logiin.html" to "login.html" in index.html line 19
+- fixed typo "hacktoberfest-banners.png" to "hacktoberfest-banner.png" in index.html line 21
+- fixed typo "onsummit" to "onsubmit" in login.html line 20
 
 ## Getting Started 🗺️
 - There are 5 bugs 🕷️ found in the source code of the HTML/CSS project. Find it, solve it, and open a PR!
