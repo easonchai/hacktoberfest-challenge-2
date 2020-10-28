@@ -62,6 +62,12 @@ nav {
     opacity: 0.6;
 }
 
+#claim-container{
+    display: flex; 
+    justify-content: 
+    center; margin: 30px;
+}
+
 h1{
     font-size: 3rem;
     text-align: center;
